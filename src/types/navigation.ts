@@ -1,5 +1,5 @@
 export type BottomTabParamList = {
-  MainTab: undefined;
-  TabTwo: undefined;
-  TabThree: undefined;
+  Cats: undefined;
+  Messages: undefined;
+  User: undefined;
 };
