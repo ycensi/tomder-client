@@ -14,11 +14,6 @@ const styles = StyleSheet.create({
     flex: 1,
     borderRadius: 16,
   },
-  content: {
-    flex: 5,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
   information: {
     alignSelf: 'stretch',
     backgroundColor: '#fff',

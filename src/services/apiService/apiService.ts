@@ -1,9 +1,10 @@
 import axios, {AxiosRequestConfig} from 'axios';
+import {env} from '../../config';
 
 const apiConfig: AxiosRequestConfig = {
   baseURL: 'https://api.thecatapi.com/v1/',
   headers: {
-    'x-api-key': '', //TODO: move to dotenv
+    'x-api-key': env.apiKey,
   },
 };
 
