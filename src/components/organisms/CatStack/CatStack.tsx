@@ -38,7 +38,6 @@ export const CatStack = () => {
 
   const vote = async (catIndex: number, like: boolean) => {
     const cat = cats[catIndex];
-    console.log(cat.name, like);
     await apiService.post('votes', {
       image_id: cat.image.id,
       value: like ? 1 : 0,
